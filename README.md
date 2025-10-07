@@ -1,4 +1,4 @@
-**Convolutional Deep Neural Network for Image Classification**
+#Convolutional Deep Neural Network for Image Classification
 
 **AIM**
 
@@ -28,7 +28,7 @@ Evaluate the trained model's performance on the test set by plotting training/va
 
 NAME:KAVIPRIYA SP
 REGISTER NUMBER:2305002011
-'''
+```
 import numpy as np
 from tensorflow import keras
 from tensorflow.keras import layers
@@ -91,7 +91,7 @@ print("KAVIPRIYA SP-2305002011")
 print(confusion_matrix(y_test,x_test_predictions))
 print("KAVIPRIYA SP-2305002011")
 print(classification_report(y_test,x_test_predictions))
-'''
+```
 
 
 **OUTPUT**
