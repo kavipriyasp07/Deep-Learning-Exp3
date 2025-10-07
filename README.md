@@ -1,27 +1,27 @@
 #Convolutional Deep Neural Network for Image Classification
 
-**AIM**
+##AIM
 
 To develop a convolutional neural network (CNN) classification model for the given dataset.
 
-**THEORY**
+##THEORY
 
 The MNIST dataset consists of 70,000 grayscale images of handwritten digits (0-9), each of size 28×28 pixels. The task is to classify these images into their respective digit categories. CNNs are particularly well-suited for image classification tasks as they can automatically learn spatial hierarchies of features through convolutional layers, pooling layers, and fully connected layers.
 
-**Neural Network Model**
+##Neural Network Model
 
 Include the neural network model diagram.
 
 **DESIGN STEPS**
-STEP 1:
+###STEP 1:
 Preprocess the MNIST dataset by scaling the pixel values to the range [0, 1] and convertir labels to one-hot encoded format.
-STEP 2:
+###STEP 2:
 Build a convolutional neural network (CNN) model with specified architecture using TensorFlow Keras.
-STEP 3:
+###STEP 3:
 Compile the model with categorical cross-entropy loss function and the Adam optimizer.
-STEP 4:
+###STEP 4:
 Train the compiled model on the preprocessed training data for 5 epochs with a batch siz of 64.
-STEP 5:
+###STEP 5:
 Evaluate the trained model's performance on the test set by plotting training/validation metrics and generating a confusion matrix and classification report. Additionally, make predictions on sample images to demonstrate model inference.
 
 **PROGRAM**
@@ -97,19 +97,26 @@ print(classification_report(y_test,x_test_predictions))
 **OUTPUT**
 
 **Training Loss per Epoch**
+
+
 <img width="438" height="568" alt="{57D0FB57-69B3-4377-830E-3FD6DECD2F13}" src="https://github.com/user-attachments/assets/7a73ca7e-f9d4-4a5e-9dc7-352f7d1b36f2" />
 
 
 **Confusion Matrix**
+
+
 <img width="743" height="321" alt="{0AB5F24E-43D4-40FC-A72F-AC427C2A1E89}" src="https://github.com/user-attachments/assets/73db4b33-b550-42f3-89f0-c7a51f135adc" />
 
 
 **Classification Report**
 
+
 <img width="717" height="458" alt="{449D3BDD-7D8A-4101-81C7-A0615DCA803C}" src="https://github.com/user-attachments/assets/fabfcb5f-05bd-4857-847f-4266b32055aa" />
 
 
 **New Sample Data Prediction**
+
+
 <img width="581" height="491" alt="{894394AD-D4EC-46D8-AB31-9EB09D303585}" src="https://github.com/user-attachments/assets/40c5c703-cb84-465b-9986-2ab2fc192010" />
 
 
