@@ -96,31 +96,31 @@ print(classification_report(y_test,x_test_predictions))
 
 ## OUTPUT
 
-**Training Loss per Epoch**
+## Training Loss per Epoch
 
 
 <img width="438" height="568" alt="{57D0FB57-69B3-4377-830E-3FD6DECD2F13}" src="https://github.com/user-attachments/assets/7a73ca7e-f9d4-4a5e-9dc7-352f7d1b36f2" />
 
 
-**Confusion Matrix**
+## Confusion Matrix
 
 
 <img width="743" height="321" alt="{0AB5F24E-43D4-40FC-A72F-AC427C2A1E89}" src="https://github.com/user-attachments/assets/73db4b33-b550-42f3-89f0-c7a51f135adc" />
 
 
-**Classification Report**
+## Classification Report
 
 
 <img width="717" height="458" alt="{449D3BDD-7D8A-4101-81C7-A0615DCA803C}" src="https://github.com/user-attachments/assets/fabfcb5f-05bd-4857-847f-4266b32055aa" />
 
 
-**New Sample Data Prediction**
+## New Sample Data Prediction
 
 
 <img width="581" height="491" alt="{894394AD-D4EC-46D8-AB31-9EB09D303585}" src="https://github.com/user-attachments/assets/40c5c703-cb84-465b-9986-2ab2fc192010" />
 
 
-**RESULT**
+## RESULT
 
 Thus, a convolutional deep neural network for digit classification and to verify the response
 for scanned handwritten images is developed successfully.
